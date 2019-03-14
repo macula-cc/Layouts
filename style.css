@@ -61,7 +61,7 @@ blockquote {
 }
 
 .hero {
-  background-image: url(/images/coworking.jpg);
+  background-image: url(./images/coworking.jpg);
   background-size: 100% auto;
   background-repeat: no-repeat;
   background-position: center;
