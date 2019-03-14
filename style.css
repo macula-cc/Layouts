@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: white;
+  margin: 0;
+  padding: 0;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.column {
+  flex-basis: 100%;
+}
+header {
+  background: black;
+  padding: 20px;
+  border-bottom: 4px solid yellow;
+}
+header h1 {
+  margin: 0;
+  color: yellow;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+nav {
+  width: 75%;
+  padding: 10px;
+}
+.nav-item {
+  flex-basis: 20%;
+  text-align: right;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+blockquote {
+  background-color: rgb(190, 190, 190);
+  font-size: 1.2em;
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+  margin: 0;
+  font-weight: bold;
+}
+.underline {
+  border-bottom: 4px solid yellow;
+}
+.strike {
+  text-decoration: line-through;
+  color: rgb(90, 100, 100);
+}
+
+.hero {
+  background-image: url(/images/coworking.jpg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  justify-content: flex-end;
+}
+.hero .card {
+    margin: 50px 30px;
+}
+
+.card {
+  flex-basis: 33.33%;
+  padding: 1.85em;
+  background-color: rgba(255, 255, 255, 0.85);
+}
+.card a {
+  display: block;
+  padding:0.75em 0;
+  border-radius:5px;
+  text-decoration:none;
+  color:black:
+  flex-basis: 80%;
+  height: 40px;
+  background: yellow;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow:0px 4px rgb(196,186,34);
+}
+
+.card p {
+  line-height: 1.5;
+}
+
+.card h2 {
+  margin: 0;
+  padding: 0;
+}
+
+.card h3 {
+    margin: 0;
+    padding: 0;
+  }
+
+.features {
+    list-style: none;
+    padding: 1.25em 0;
+    margin: 0;
+}
+
+.features a{
+    background: grey;
+    box-shadow:0px 4px rgb(90,88,88);
+}
+
+.features .card {
+    border-right: 1px solid rgb(190,190,190)
+}
+
+.features .card :last-of-type {
+    border-right: none;
+}
+
+footer {
+    background-color: black;
+    color: darkgray;
+    padding: 1.25em;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color:pink;
+    }
+}
